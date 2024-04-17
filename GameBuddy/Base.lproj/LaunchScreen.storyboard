@@ -4,7 +4,6 @@
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22684"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
-        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -16,13 +15,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="GameBuddy_1 1" translatesAutoresizingMaskIntoConstraints="NO" id="XAd-1h-DrI">
-                                <rect key="frame" x="71.666666666666686" y="313.66666666666669" width="250" height="250.00000000000006"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="250" id="0eu-u0-mPU"/>
-                                    <constraint firstAttribute="width" constant="250" id="vMW-O4-YDe"/>
-                                </constraints>
-                            </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="GameBuddy" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WSg-5Z-NLm">
                                 <rect key="frame" x="85" y="583" width="223" height="51"/>
                                 <constraints>
@@ -30,17 +22,24 @@
                                     <constraint firstAttribute="height" constant="51" id="yKw-lI-AIm"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="AvenirNext-Bold" family="Avenir Next" pointSize="37"/>
-                                <nil key="textColor"/>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="GameBuddyLogo" translatesAutoresizingMaskIntoConstraints="NO" id="Vm6-lj-gS3">
+                                <rect key="frame" x="71.666666666666686" y="313.66666666666669" width="250" height="250.00000000000006"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="250" id="Ctk-xI-AfQ"/>
+                                    <constraint firstAttribute="height" constant="250" id="fIU-FT-hgF"/>
+                                </constraints>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
+                            <constraint firstItem="Vm6-lj-gS3" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="Z6R-aA-042"/>
+                            <constraint firstItem="Vm6-lj-gS3" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="Z82-Js-Rj9"/>
                             <constraint firstItem="WSg-5Z-NLm" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="b2F-dz-n63"/>
-                            <constraint firstItem="XAd-1h-DrI" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="biH-lD-nti"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="WSg-5Z-NLm" secondAttribute="bottom" constant="184" id="k8J-zx-XzM"/>
-                            <constraint firstItem="XAd-1h-DrI" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="tKc-wR-SnQ"/>
                         </constraints>
                     </view>
                 </viewController>
@@ -50,9 +49,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="GameBuddy_1 1" width="496" height="496"/>
-        <systemColor name="systemBackgroundColor">
-            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-        </systemColor>
+        <image name="GameBuddyLogo" width="496" height="496"/>
     </resources>
 </document>
