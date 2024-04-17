@@ -1,6 +1,6 @@
 //
 //  SceneDelegate.swift
-//  Soyamate
+//  GameBuddy
 //
 //  Created by Рафаэль Голубев on 14.04.2024.
 //
