@@ -281,10 +281,11 @@
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = JV8AQNMRA2;
+				DEVELOPMENT_TEAM = M7C3R8FV4M;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = GameBuddy/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = GameBuddy;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.games";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = "";
@@ -316,10 +317,11 @@
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = JV8AQNMRA2;
+				DEVELOPMENT_TEAM = M7C3R8FV4M;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = GameBuddy/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = GameBuddy;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.games";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = "";
