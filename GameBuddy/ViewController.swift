@@ -82,6 +82,7 @@ class ViewController: UIViewController {
                 let url = URL(string: encoded)!
 
                 var request: URLRequest = .init(url: url)
+                request.addValue("application/json", forHTTPHeaderField: "Content-Type")
                 request.httpMethod = "POST"
                 request.httpBody = RegisterIn(email: "ios", password: "ios").toJSON()
 
